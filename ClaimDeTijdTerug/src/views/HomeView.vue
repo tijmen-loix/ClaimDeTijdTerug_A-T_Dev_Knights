@@ -1,15 +1,11 @@
-<script setup></script>
+<script setup>import TaskButton from '@/components/TaskButton.vue'
+</script>
 
 <template>
 
   <h1>Procrasti<strong>Stop</strong></h1>
 
-  <div class="main-task">
-<h2> Web advanced Pokedex</h2>
-
-    <span>Subtasks: 2/6</span>
-    <span>Deadline: 14/12/2026</span>
-  </div>
+  <TaskButton/>
   <div></div>
   <div></div>
 
@@ -20,5 +16,8 @@
 
 .main-task{
   border: 3px solid black ;
+  width: 450px;
+  height: 150px;
+  border-radius: 15px;
 }
 </style>
