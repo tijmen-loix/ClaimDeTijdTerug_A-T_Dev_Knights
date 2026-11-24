@@ -9,8 +9,9 @@ import ProgressBar from '@/components/ProgressBar.vue'
 
       <span>Subtasks: 2/6</span>
       <span>Deadline: 14/12/2026</span>
-      <ProgressBar /></div
-  ></router-link>
+      <ProgressBar />
+    </div>
+  </router-link>
 </template>
 
 <style scoped>
@@ -26,7 +27,11 @@ template a {
   text-decoration: none;
 }
 
-.main-task a {
+.main-task h2 {
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 </style>
