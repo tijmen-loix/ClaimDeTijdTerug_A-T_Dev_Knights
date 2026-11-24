@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "titel": "Maken van HomeView",
+    "voltooid": true
+  },
+  {
+    "id": 2,
+    "titel": "Hardcoden 1 pokemon",
+    "voltooid": true
+  },
+  {
+    "id": 3,
+    "titel": "Designen van hardcoded DetailView",
+    "voltooid": true
+  },
+  {
+    "id": 4,
+    "titel": "Ophalen van de eerste 10 pokemons via de API",
+    "voltooid": false
+  },
+  {
+    "id": 5,
+    "titel": "Kleuren toevoegen van het thema van de pokemon",
+    "voltooid": false
+  },
+  {
+    "id": 6,
+    "titel": "Ophalen van alle andere pokemons",
+    "voltooid": false
+  },
+  {
+    "id": 7,
+    "titel": "Zoekfunctie integreren",
+    "voltooid": false
+  },
+  {
+    "id": 8,
+    "titel": "Sorteer functie integreren",
+    "voltooid": false
+  },
+  {
+    "id": 9,
+    "titel": "Favorieten knop implementeren",
+    "voltooid": false
+  },
+  {
+    "id": 10,
+    "titel": "Maken van een pokemon party",
+    "voltooid": false
+  }
+]

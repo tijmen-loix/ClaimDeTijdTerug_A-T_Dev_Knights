@@ -1,5 +1,6 @@
 <script setup>
 import ProgressBar from "@/components/ProgressBar.vue";
+import tasks from "@/data/tasks.json";
 
 </script>
 
@@ -7,7 +8,10 @@ import ProgressBar from "@/components/ProgressBar.vue";
 <section class="top">
   <h1>Web advanced pokedex</h1>
   <section class="top-right">
-    <h1>3/10</h1>
+    <section class="row">
+      <h1>3/10</h1>
+      <router-link to="/">Terug</router-link>
+    </section>
     <progress-bar/>
   </section>
 </section>
@@ -60,16 +64,7 @@ import ProgressBar from "@/components/ProgressBar.vue";
       </svg>
     </section>
     <section class="teksten">
-      <h2>Maken van HomeView</h2>
-      <h2>Hardcoden 1 pokemon</h2>
-      <h2>Designen van hardcoded DetailView</h2>
-      <h2>Ophalen van de eerste 10 pokemons via de API</h2>
-      <h2>Kleuren toevoegen van het thema van de pokemon</h2>
-      <h2>Ophalen van alle andere pokemons</h2>
-      <h2>Zoekfunctie integreren</h2>
-      <h2>Sorteer functie integreren</h2>
-      <h2>Favorieten knop implementeren</h2>
-      <h2>Maken van een pokemon party</h2>
+      <h2 v-for="task in tasks">{{ task.titel }}</h2>
     </section>
   </section>
 </section>
@@ -109,4 +104,11 @@ import ProgressBar from "@/components/ProgressBar.vue";
 .teksten{
   margin-top: -10px;
 }
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 </style>
